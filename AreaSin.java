@@ -7,7 +7,7 @@ class AreaSin extends ConsoleProgram {
   
   public void run() {
     
-    // start coding here
+    
     
   }
 }
