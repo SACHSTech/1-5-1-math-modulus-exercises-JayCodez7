@@ -16,7 +16,7 @@ class Cos3rd extends ConsoleProgram {
     // get sides
     dblSide1 = readDouble("What is the length of the first side of the triangle? ");
     dblSide2 = readDouble("What is the length of the second side of the triangle? ");
-    dblAngle = readInt("What is the length of the contained angle of the triangle? ");
+    dblAngle = readInt("How many degrees is the contained angle of the triangle? ");
 
     // calculate
     dblAngle = Math.toRadians(dblAngle);
