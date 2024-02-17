@@ -1,13 +1,26 @@
 class Hours extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * Program that allows you to convert hours to days
+  * @author:J. Lau
   */
   
   public void run() {
     
-    // start coding here
+    // declare variables
+    int intHours;
+    int intDays;
+    int intHoursLeftover;
+    // get hours
+    intHours = readInt("Input the number of hours: ");
+
+    // calculate
+    intDays = intHours/24;
+    intHoursLeftover = intHours%24;
+
     
+    // output answer
+    System.out.println(intHours + " hours = " + intDays + " days and " + intHoursLeftover + " hours");
+
   }
 }
